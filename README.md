@@ -33,7 +33,7 @@ Source: Kaggle
 
 
 ## Schema
-<hr style="border: none; border-top: 0.2px solid #ccc;" />
+--- 
 ```sql
 CREATE TABLE netflix_data (
   show_id VARCHAR(20),
