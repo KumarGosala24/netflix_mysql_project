@@ -11,15 +11,15 @@ This project focuses on analyzing Netflix's movie and TV show catalog using MySQ
 ### 🎯 Objectives
 <hr style="border: none; border-top: 0.2px solid #ccc;" />
 
-Compare the number of Movies vs TV Shows on Netflix.
+ **•** Compare the number of Movies vs TV Shows on Netflix.
 
-Find the most common content ratings.
+ **•** Find the most common content ratings.
 
-Analyze content by release year, country, and duration.
+ **•** Analyze content by release year, country, and duration.
 
-Filter and classify shows based on keywords, genres, and other custom conditions.
+ **•** Filter and classify shows based on keywords, genres, and other custom conditions.
 
-Generate summaries and trends for content growth, popular actors, and more.
+ **•** Generate summaries and trends for content growth, popular actors, and more.
 
 
 ### 🗂️ Dataset
