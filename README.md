@@ -3,7 +3,7 @@
 
 
 ### Overview
----
+-----
 
 This project focuses on analyzing Netflix's movie and TV show catalog using MySQL. By writing SQL queries, we explore the structure and trends within the platform’s content. The project answers real-world business questions to gain actionable insights.
 
