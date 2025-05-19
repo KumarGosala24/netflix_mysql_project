@@ -33,7 +33,8 @@ Source: Kaggle
 
 
 ## Schema
-```
+
+```sql
 CREATE TABLE netflix_data (
   show_id VARCHAR(20),
   type VARCHAR(20),
@@ -48,7 +49,7 @@ CREATE TABLE netflix_data (
   listed_in TEXT,
   description TEXT
 );
-```sql
+```
 
 ### Business Problems and Solutions
 
