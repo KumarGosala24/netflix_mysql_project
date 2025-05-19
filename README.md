@@ -33,7 +33,7 @@ Source: Kaggle
 
 
 ## Schema
-
+<hr style="border: none; border-top: 0.2px solid #ccc;" />
 ```sql
 CREATE TABLE netflix_data (
   show_id VARCHAR(20),
@@ -52,7 +52,7 @@ CREATE TABLE netflix_data (
 ```
 
 ### Business Problems and Solutions
-
+<hr style="border: none; border-top: 0.2px solid #ccc;" />
 #### 1. count the number of movies vs Tv shows
 ```sql
 select type, count(*) as total_content
@@ -217,7 +217,7 @@ LIMIT 10;
 ```
 
 ### Findings and Conclusion
-
+<hr style="border: none; border-top: 0.1px solid #ccc;" />
  **•** Content Variety: Netflix offers a wide mix of movies and TV shows, covering many genres and ratings.
 
  **•** Popular Ratings: The most frequent ratings reveal who the main audience is.
@@ -230,7 +230,7 @@ Overall, this analysis gives a clear picture of Netflix’s content and can guid
 
 
 ### Author
-
+<hr style="border: none; border-top: 0.1px solid #ccc;" />
 This project demonstrates my MySQL skills through real-world Netflix data analysis, highlighting key abilities needed for data analyst roles.
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/sowjanya-kumar-gosala/)
