@@ -33,7 +33,7 @@ Source: Kaggle
 
 
 ## Schema
---- 
+
 ```sql
 CREATE TABLE netflix_data (
   show_id VARCHAR(20),
@@ -52,7 +52,7 @@ CREATE TABLE netflix_data (
 ```
 
 ### Business Problems and Solutions
-
+___
 #### 1. count the number of movies vs Tv shows
 ```sql
 select type, count(*) as total_content
