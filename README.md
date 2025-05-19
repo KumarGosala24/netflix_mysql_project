@@ -29,4 +29,4 @@ Source: Kaggle
 
  **•** Dataset Name: Netflix Movies and TV Shows
 
- **•** Dataset Link: [Link Text](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+ **•** Dataset Link: [Movie Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows)
