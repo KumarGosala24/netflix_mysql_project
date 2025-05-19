@@ -1,2 +1,2 @@
 # Netflix Trends Analyzer using MySQL
-![image alt](https://cdn1.iconfinder.com/data/icons/logos-brands-in-colors/7500/Netflix_Logo_RGB-1024.png)
+![image alt](https://github.com/KumarGosala24/netflix_mysql_project/blob/557b50d8206f6a114740c1e29ba5ef3e78756657/logo.png)
