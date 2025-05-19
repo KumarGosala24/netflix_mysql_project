@@ -1,36 +1,3 @@
-create database Netflix;
-
-use Netflix;
-
-
-CREATE TABLE netflix_data (
-  show_id VARCHAR(20),
-  type VARCHAR(20),
-  title TEXT,
-  director TEXT,
-  cast TEXT,
-  country TEXT,
-  date_added VARCHAR(50),
-  release_year INT,
-  rating VARCHAR(20),
-  duration VARCHAR(20),
-  listed_in TEXT,
-  description TEXT
-);
-
-
-LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/netflix_titles.csv'
-INTO TABLE netflix_data
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"' 
-LINES TERMINATED BY '\n' 
-IGNORE 1 ROWS
-(show_id, type, title, director, cast, country, date_added, release_year, rating, duration, listed_in, description);
-
-select count(*) from netflix_data;
-
-
-
 
 -- 20 Bussiness problems 
 
@@ -56,8 +23,6 @@ FROM netflix_data
 WHERE type = 'Movie' AND release_year = 2020;
 
 
-
-
 -- 4.  Find the top 5 countries with the most content on Netflix
 
 SELECT country, COUNT(*) AS total
@@ -65,7 +30,6 @@ FROM netflix_data
 GROUP BY country
 ORDER BY total DESC
 LIMIT 5;
-
 
 
 -- 5. Identify the Longest Movie
@@ -90,7 +54,6 @@ WHERE STR_TO_DATE(date_added, '%M %d, %Y') >= CURDATE() - INTERVAL 5 YEAR;
 SELECT *
 FROM netflix_data
 WHERE director = 'Rajiv Chilaka';
-
 
 
 -- 8. List all TV shows with more than 5 seasons
@@ -134,7 +97,6 @@ FROM netflix_data
 WHERE director IS NULL OR director = '';
 
 
-
 -- 13. Find how many movies actor 'Salman Khan' appeared in last 10 years
 
 SELECT COUNT(*) AS total
@@ -142,7 +104,6 @@ FROM netflix_data
 WHERE type = 'Movie'
   AND `cast` LIKE '%Salman Khan%'
   AND release_year >= YEAR(CURDATE()) - 10;
-
 
 
 -- 14. Top 10 actors with highest number of movies produced in India
@@ -163,6 +124,7 @@ GROUP BY actor
 ORDER BY total_movies DESC
 LIMIT 10;
 
+
 -- 15. Categorize content based on keywords in description
 
 SELECT 
@@ -182,6 +144,7 @@ FROM netflix_data
 WHERE release_year IS NOT NULL
 GROUP BY release_year
 ORDER BY release_year ASC;
+
 
 -- 17 Which country produces the most Netflix content?
 
