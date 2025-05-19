@@ -52,7 +52,7 @@ CREATE TABLE netflix_data (
 ```
 
 ### Business Problems and Solutions
-<hr style="border: none; border-top: 0.2px solid #ccc;" />
+
 #### 1. count the number of movies vs Tv shows
 ```sql
 select type, count(*) as total_content
