@@ -27,6 +27,6 @@ This project focuses on analyzing Netflix's movie and TV show catalog using MySQ
 
 Source: Kaggle
 
-Dataset Name: Netflix Movies and TV Shows
+ **•** Dataset Name: Netflix Movies and TV Shows
 
-Dataset Link: [Link Text](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+ **•** Dataset Link: [Link Text](https://www.kaggle.com/datasets/shivamb/netflix-shows)
