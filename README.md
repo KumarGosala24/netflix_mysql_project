@@ -217,20 +217,20 @@ LIMIT 10;
 ```
 
 ### Findings and Conclusion
-<hr style="border: none; border-top: 0.1px solid #ccc;" />
- **•** Content Variety: Netflix offers a wide mix of movies and TV shows, covering many genres and ratings.
+---
+   **•** Content Variety: Netflix offers a wide mix of movies and TV shows, covering many genres and ratings.
 
- **•** Popular Ratings: The most frequent ratings reveal who the main audience is.
+   **•** Popular Ratings: The most frequent ratings reveal who the main audience is.
 
- **•** Regional Trends: India and other top countries show where Netflix focuses its content.
+   **•** Regional Trends: India and other top countries show where Netflix focuses its content.
 
-**•** Content Types: Grouping shows by keywords helps us understand the themes and nature of the library.
+  **•** Content Types: Grouping shows by keywords helps us understand the themes and nature of the library.
 
 Overall, this analysis gives a clear picture of Netflix’s content and can guide future choices about what to add or promote.
 
 
 ### Author
-<hr style="border: none; border-top: 0.1px solid #ccc;" />
+---
 This project demonstrates my MySQL skills through real-world Netflix data analysis, highlighting key abilities needed for data analyst roles.
 
 Connect with me on [LinkedIn](https://www.linkedin.com/in/sowjanya-kumar-gosala/)
