@@ -231,9 +231,9 @@ Overall, this analysis gives a clear picture of Netflix’s content and can guid
 
 ### Author
 ---
-This project demonstrates my MySQL skills through real-world Netflix data analysis, highlighting key abilities needed for data analyst roles.
+This project showcases my MySQL expertise through comprehensive analysis of real-world Netflix data, highlighting my ability to extract meaningful insights.
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/sowjanya-kumar-gosala/)
+ **•** Connect with me on [LinkedIn](https://www.linkedin.com/in/sowjanya-kumar-gosala/)
 
 
 
